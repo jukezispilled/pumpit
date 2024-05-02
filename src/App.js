@@ -6,7 +6,7 @@ import TweetButton from './TweetButton';
 
 function App() {
   const tweetText = "📞Call is in. Pump it pump.fun:"
-  const solAddress = "https://pump.fun/3vUdCssS5HWh6oReT3TT43dFWkjNnSi1FjPE4xAysrT2"
+  const solAddress = "too early"
 
   const backgroundStyle = {
     backgroundImage: `url(${backgroundImage})`, // Set the background image
