@@ -22,8 +22,6 @@ function App() {
     <div style={backgroundStyle}>
       <div className='flex justify-center items-center'>
         <div className='grid'>
-          <div className='text-7xl lg:text-9xl font-bold text-white'>PUMP IT</div>
-          <div className='flex justify-center'><TweetButton tweetText={tweetText} solAddress={solAddress}></TweetButton></div>
         </div>
       </div>
     </div>
