@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import backgroundImage from './CDBDC215- copy.jpg'; // Import the background image
+import backgroundImage from './giga.jpg'; // Import the background image
 import logo from './logo.svg';
 import TweetButton from './TweetButton';
 
