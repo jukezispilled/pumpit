@@ -3,6 +3,8 @@ import React from 'react';
 import backgroundImage from './giga.jpg'; // Import the background image
 import logo from './logo.svg';
 import TweetButton from './TweetButton';
+import Xlogo from './xlogo.jpg';
+import TG from './tg.png';
 
 function App() {
   const tweetText = "📞Call is in. Pump it pump.fun:"
@@ -22,7 +24,13 @@ function App() {
     <div style={backgroundStyle}>
       <div className='flex justify-center items-center'>
         <div className='grid text-9xl md:text-[200px] text-white font-custom'>
-          GIGADON
+          <div className='grid'>
+            GIGADON
+            <div className='pt-8 text-center font-custom text-2xl flex justify-center -mt-3'>
+                  <a href="https://twitter.com/gigadonsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-14 h-14 rounded-md'></img></a>
+                  <a href="https://t.me/gigadonsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-14 h-14'></img></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
