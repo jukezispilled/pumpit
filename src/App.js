@@ -10,7 +10,7 @@ function App() {
 
   const backgroundStyle = {
     backgroundImage: `url(${backgroundImage})`, // Set the background image
-    backgroundSize: 'contain',
+    backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '100vh', // Make sure the background covers the entire viewport height
     display: 'flex',
