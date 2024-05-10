@@ -21,7 +21,7 @@ function App() {
   return (
     <div style={backgroundStyle}>
       <div className='flex justify-center items-center'>
-        <div className='grid text-9xl md:text-[200px] font-custom'>
+        <div className='grid text-9xl md:text-[200px] text-white font-custom'>
           GIGADON
         </div>
       </div>
